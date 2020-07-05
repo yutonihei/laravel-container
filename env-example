@@ -1,2 +1,22 @@
 ### Set PHP version #################################################
-PHP_VERSION=7.2
+PHP_VERSION=7.2                     #select php version
+
+### Set MySQL settings ##############################################
+MYSQL_VERSION=5.7                   #select mysql_version
+MYSQL_DATABASE=                     #input databese name
+MYSQL_USER=                         #input user name
+MYSQL_PASSWORD=                     #input password
+MYSQL_ROOT_PASSWORD=                #input password
+MYSQL_LOCAL_PORT=3306               #input mysql local port
+
+### Set NGINX container name settings ###############################
+SERVICE_CONTAINER_NAME=             #input service name
+
+### Set NGINX shared network settings ###############################
+SHARED_NETWORK_NAME=shared-network  #input network name
+
+### Set NGINX access port (not required)#############################
+# ACCESS_PORT=10080
+
+### Set docker network name #########################################
+NETWORK_NAME=laravel-ec             #input docker-compose network name
